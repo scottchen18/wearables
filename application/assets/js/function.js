@@ -15,7 +15,11 @@
 $('.play_video').click(function(){show_video($(this).attr('data-rel'));});
 $('.featured_story').click(function(){location.href=baseUrl+'/feature';});
 $('.main_nav li').click(scroll_navigation);
-$('.scroll_nav').click(scroll_navigation);
+$('.page_nav li').click(page_nav);
+
+if($('#page').val() != ''){
+	jump_page($('#page').val());
+}
 /**************************************************/
 
 //**************************************************
@@ -78,11 +82,20 @@ function close_video(){
 	
 }
 
-
+function page_nav(){
+	var page = $(this).attr('rel');
+	location.href=baseUrl+'/page/'+page;
+}
 
 function scroll_navigation(){
 	var page = $(this).attr('rel');
 	$('html, body').animate({
 	    scrollTop: $('#'+page).offset().top - 60
 	}, 2000);
+}
+
+function jump_page(page){
+	$('html, body').animate({
+	    scrollTop: $('#'+page).offset().top - 60
+	}, 1);
 }

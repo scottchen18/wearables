@@ -1,3 +1,4 @@
+<input type="hidden" id="page" value="<?php echo $page;?>">
 <section class="landing">
 	<div class="row">
 		<div class="small-12 columns">

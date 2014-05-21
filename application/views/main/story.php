@@ -7,10 +7,10 @@
  		<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
     </ul>	
 	<section class="top-bar-section">
-	    <ul class="right">		
-			<li><a>Events & Workshops</a></li>
-			<li><a>Featured Stories</a></li>
-	        <li><a>Videos</a></li>		
+	    <ul class="right page_nav">		
+			<li rel="events"><a>Events & Workshops</a></li>
+			<li rel="feature"><a>Featured Stories</a></li>
+	        <li rel="videos"><a>Videos</a></li>		
 	    </ul>
 	</section>
 </nav>

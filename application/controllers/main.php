@@ -47,8 +47,8 @@ class Main extends CI_Controller {
 		
 							';
 		//get portfolio videos
+		$data['page'] = ($this->session->flashdata('page')) ? $this->session->flashdata('page'):'';
 		
-		$data['page'] = "home";
 		$this->load->view('headers/header',$data);
 		$this->load->view('main/landing',$data);
 		$this->load->view('headers/footer',$data);
@@ -81,6 +81,12 @@ class Main extends CI_Controller {
 		$this->load->view('main/story',$data);
 		$this->load->view('headers/footer',$data);
 
+	}
+	
+	public function page($page){
+		
+		$this->session->set_flashdata('page', $page);
+		redirect(base_url());
 	}
 
 }
