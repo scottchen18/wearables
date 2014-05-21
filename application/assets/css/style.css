@@ -246,3 +246,12 @@ display: inline-block;
 	text-align:center;
 	display:none;
 }
+.play_button{
+	width: 50px;
+	position: absolute;
+	margin: 87px 0px 0px 126px;
+}
+.play_video:hover{
+	cursor:pointer;
+	cursor:hand;
+}

@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>application/assets/css/style.css" />
 	<script src="<?php echo base_url();?>application/assets/js/jquery.js"></script>
 	<script src="<?php echo base_url();?>application/assets/js/config.js"></script>
-	<script src="<?php echo base_url();?>application/assets/js/function.js"></script>
 	<?php echo $meta;?>
 	<?php echo $f_meta;?>
   </head>

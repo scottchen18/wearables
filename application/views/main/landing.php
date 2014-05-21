@@ -17,10 +17,10 @@
  		<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
     </ul>	
 	<section class="top-bar-section">
-	    <ul class="right">		
-			<li><a>Events & Workshops</a></li>
-			<li><a>Featured Stories</a></li>
-	        <li><a>Videos</a></li>		
+	    <ul class="right main_nav">		
+			<li rel="events"><a>Events & Workshops</a></li>
+			<li rel="feature"><a>Featured Stories</a></li>
+	        <li rel="videos"><a>Videos</a></li>		
 	    </ul>
 	</section>
 </nav>
@@ -76,7 +76,7 @@
 	
 </section>
 
-<section class="page3">
+<section id="events" class="page3">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<h1 class="red">Events & Workshops</h1> 
@@ -142,9 +142,30 @@
 		
 		</div>
 	</div>
+	
+	<div class="row">
+		<div class="small-12 medium-3 columns s_center">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
+		
+		</div>
+		
+		<div class="small-12 medium-3 columns s_center">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
+		
+		</div>
+		
+		<div class="small-12 medium-3 columns s_center">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+		
+		</div>
+		<div class="small-12 medium-3 columns s_center">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+		
+		</div>
+	</div>
 </section>
 
-<section class="page2">
+<section id="feature" class="page2">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<a class="featured_story"><div style="margin-bottom:30px">
@@ -160,7 +181,7 @@
 	</div>
 </section>
 
-<section class="border"></section>
+<section id="videos" class="border"></section>
 <section class="page3">
 	<div class="row">
 		<div class="small-12 columns s_center">
@@ -169,62 +190,26 @@
 	</div>
 	
 	<div class="row">
-		<div class="small-12 medium-4 columns s_center">
+		<div class="small-12 medium-4 columns s_center play_video">
+			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
 			<div class="video_place"></div>
 			<div class="video_title"> Video Title 1</div>
 		</div>
 		
-		<div class="small-12 medium-4 columns s_center">
+		<div class="small-12 medium-4 columns s_center play_video">
+			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
 			<div class="video_place"></div>
 			<div class="video_title"> Video Title 2</div>
 		</div>
 		
-		<div class="small-12 medium-4 columns s_center">
+		<div class="small-12 medium-4 columns s_center play_video">
+			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
 			<div class="video_place"></div>
 			<div class="video_title"> Video Title 3</div>
 		</div>
 	</div>
 </section>
 
-
-<section class="footer">
-	<div class="row">
-		<div class="small-12 medium-4 columns f_box">
-					<div class="f_top">Other Links</div>
-					<div class="sub_text4Footer">
-						<ul class="f_list">
-
-							<a href="http://projectspac.es/about"><li>About Us</li></a>
-							<a href="http://blog.projectspac.es" target="blank_"><li>Press</li></a>
-							<a href="http://projectspac.es/perks"><li>Join The Movement</li></a>
-							<a href="http://projectspac.es/press"><li>Contact Us</li></a>
-
-						</ul>
-						
-						<div class="social_links"><a target="_blank" href="http://www.facebook.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/facebook-white-16px.png"></a>
-						<a target="_blank" href="http://www.twitter.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/twitter-white-16px.png"></a>
-						<a target="_blank" href="http://blog.projectspac.es"><img src="https://s3.amazonaws.com/webImages/tumblr-white-16px.png"></a>
-						<a target="_blank" href="http://www.instagram.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/instagram-white-16px.png"></a>
-						<a target="_blank" href="http://www.youtube.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/youtube-white-16px.png"></a>
-						</div>
-					</div>
-				
-		</div>
-		
-		<div class="small-12 medium-4 columns f_box">
-					<div style="margin-bottom:28px;" class="f_top">Twitter @WeAreWearables</div>
-					<a class="twitter-timeline" data-tweet-limit="3" data-link-color="#bf1522" data-border-color="#bf1522" data-background-color="#efefef" href="https://twitter.com/WeAreWearables" data-widget-id="469174070731218944">Tweets by @WeAreWearables</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-					
-		</div>
-		<div class="small-12 medium-4 columns f_box">
-					<div style="margin-bottom:30px;" class="f_top">Instagram @WeAreWearables</div>
-					<!-- www.intagme.com -->
-					<iframe style="height:274px;width:274px;" src="http://www.intagme.com/in/?u=d2VhcmV3ZWFyYWJsZXN8c2x8MzAwfDJ8M3x8eWVzfDV8dW5kZWZpbmVkfG5v" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:315px; height: 315px" ></iframe>
-		</div>
-	</div>
-</section>
 <script>
 // $('.video_container').hover(function(){
 // 	$(this).find('.video_screen').animate({marginTop:'+=210px'},200,function(){});
@@ -236,7 +221,7 @@
 // 	}
 // );
 
-$('.video_place').click(function(){show_video($(this).attr('data-rel'));});
+$('.play_video').click(function(){show_video($(this).attr('data-rel'));});
 $('.featured_story').click(function(){location.href=baseUrl+'/feature';});
 function show_video(url){
 	

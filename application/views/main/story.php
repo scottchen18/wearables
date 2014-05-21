@@ -36,13 +36,11 @@
 	<div style="padding:20px 0px"></div>
 <div class="row">
 	<div class="small-12 medium-4 columns">
-		<div class="video_place"></div>
-		<iframe onload="resizeIframe(this)" width="90%" height="900px" src="//vandrico.com/widget/device/206?long_desc=long_desc&company=company&device_name=device_name&release=release&price=price&comp=comp" frameborder="0" allowfullscreen></iframe>
-		    <script type="text/javascript">
-		      function resizeIframe(iframe) {
-		        iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-		      }
-		    </script>
+		<div class="play_video">
+			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
+			<div class="video_place"></div>
+		</div>
+		<iframe  width="100%" height="900px" src="//vandrico.com/widget/device/206?long_desc=long_desc&company=company&device_name=device_name&release=release&price=price&comp=comp" frameborder="0" allowfullscreen style="overflow-x:hidden"></iframe>
 		
 	</div>
 	<div class="medium-8 columns">
