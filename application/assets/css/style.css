@@ -3,6 +3,14 @@
 font-family: accordAlt;
 src: url(../fonts/AccordAlt_Medium.otf);
 }
+.bgfade{
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.95);
+	position:absolute;
+	z-index:100;
+	display:none;	
+}
 .ph{
 	font-weight:100;
 	font-size:120px;
@@ -223,4 +231,18 @@ width: 16px;
 margin-right: 10px;
 opacity: 0.8;
 display: inline-block;
+}
+.sponsor_img{
+	height:90px;
+	-webkit-filter: grayscale(100%);
+	       -moz-filter: grayscale(100%);
+	         -o-filter: grayscale(100%);
+	        -ms-filter: grayscale(100%);
+	            filter: grayscale(100%);
+}
+
+#video_pop{
+	z-index:200;
+	text-align:center;
+	display:none;
 }

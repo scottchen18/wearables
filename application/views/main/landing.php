@@ -80,10 +80,10 @@
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<h1 class="red">Events & Workshops</h1> 
-			<select style="width:200px">
-				<option> Toronto </option>
-				<option> Boobsville </option>
-			</select>
+			<!-- <select style="width:200px">
+							<option> Toronto </option>
+							<option> Boobsville </option>
+						</select> -->
 		</div>
 	</div>
 	
@@ -105,7 +105,7 @@
 				<span class="sp1">Mars Discover District</span><br>
 				101 College Street
 			</p>
-			<a class="custom2">Register</a>
+			<a class="custom2" href="http://www.meetup.com/Wearable-Wednesday-Toronto/events/181497672/" target="_blank">Register</a>
 		</div>
 	</div>
 </section>
@@ -124,21 +124,21 @@
 	
 	<div class="row">
 		<div class="small-12 medium-3 columns s_center">
-			<div class="video_place"></div>
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
 		
 		</div>
 		
 		<div class="small-12 medium-3 columns s_center">
-			<div class="video_place"></div>
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
 		
 		</div>
 		
 		<div class="small-12 medium-3 columns s_center">
-			<div class="video_place"></div>
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
 		
 		</div>
 		<div class="small-12 medium-3 columns s_center">
-			<div class="video_place"></div>
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
 		
 		</div>
 	</div>
@@ -147,7 +147,7 @@
 <section class="page2">
 	<div class="row">
 		<div class="small-12 columns s_center">
-			<div style="margin-bottom:30px">
+			<a class="featured_story"><div style="margin-bottom:30px">
 				<span class="fs" >Featured Story</span>
 			</div>
 			<div>
@@ -155,7 +155,7 @@
 			</div>
 			<div class="fs">
 				A kick ass article by Tom Emrich
-			</div>
+			</div></a>
 		</div>
 	</div>
 </section>
@@ -226,6 +226,46 @@
 	</div>
 </section>
 <script>
+// $('.video_container').hover(function(){
+// 	$(this).find('.video_screen').animate({marginTop:'+=210px'},200,function(){});
+// 	$(this).find('.video_title').show();
+// 	
+// 	},function(){
+// 	$(this).find('.video_title').hide();
+// 	$(this).find('.video_screen').animate({marginTop:'-=210px'},200);
+// 	}
+// );
+
+$('.video_place').click(function(){show_video($(this).attr('data-rel'));});
+$('.featured_story').click(function(){location.href=baseUrl+'/feature';});
+function show_video(url){
+	
+	var width = $(window).width() * 0.7;
+	$('.bgfade').fadeIn('slow');
+	
+	$('#video_pop').show();
+	$('#y_video').css('width',width);
+	$('#y_video').css('height',(width/1.7777));
+	
+	$('#video_pop').css('width',width);
+	$('#video_pop').center(false);
+	$('#video_pop').hide();
+	$('#video_pop').fadeIn('slow',function(){
+		$('#y_video').html('<iframe width="'+width+'" height="'+(width/1.7777)+'" src="//www.youtube.com/embed/43wIp2eDvDw" frameborder="0" allowfullscreen></iframe>');
+	});
+
+	$('.bgfade').css('height',$(document).height());
+	$('.bgfade').css('width',$(document).width());
+	
+	$(document).keyup(function(e) {
+		 if (e.keyCode == 27) {close_video();}
+	});
+}
+function close_video(){
+	$('.bgfade').fadeOut('slow');
+	$('#video_pop').fadeOut('slow',function(){$('#y_video').html('');});
+	
+}
 var padding = ($('.e_info').height() - $('.e_date').height()) /2;
 	$('.e_date').css('padding-top',padding);
 	$('.e_date').css('padding-bottom',padding);

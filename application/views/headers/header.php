@@ -15,5 +15,11 @@
 	<?php echo $f_meta;?>
   </head>
   <body>
-
+	<div class="bgfade"></div>
+	<div id="video_pop">
+		<div class="s_center">
+			<img style="width:60px;margin-bottom:40px" src="<?php echo base_url();?>application/assets/img/wearables-icon-white.png">
+			<div id="y_video"></div>
+		</div>
+	</div>
 
