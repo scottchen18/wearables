@@ -54,10 +54,10 @@ h1.red{
 }
 .page1{
 	background:#bf1522;
-	padding:120px 0px;
+	padding:80px 0px;
 }
 .page2{
-	padding:140px;
+	padding:80px 0px;
 	background:url(../img/pivot1.png);
 	background-size:cover;
 	background-position:center center;
@@ -65,7 +65,7 @@ h1.red{
 	
 }
 .page3{
-	padding:100px 0px;
+	padding:80px 0px;
 }
 .s_center{
 	text-align:center;
