@@ -8,10 +8,10 @@
 					<div class="sub_text4Footer">
 						<ul class="f_list">
 
-							<a href="http://projectspac.es/about"><li>About Us</li></a>
-							<a href="http://blog.projectspac.es" target="blank_"><li>Press</li></a>
-							<a href="http://projectspac.es/perks"><li>Join The Movement</li></a>
-							<a href="http://projectspac.es/press"><li>Contact Us</li></a>
+							<a href="<?php echo base_url();?>about"><li>About Us</li></a>
+							<a href="<?php echo base_url();?>about" target="blank_"><li>Press</li></a>
+							<a href="<?php echo base_url();?>about"><li>Join The Movement</li></a>
+							<a href="<?php echo base_url();?>about"><li>Contact Us</li></a>
 
 						</ul>
 						
@@ -40,7 +40,7 @@
 	</div>
 </section>
 <script src="<?php echo base_url();?>application/assets/js/foundation.min.js"></script>
-<script src="<?php echo base_url();?>application/assets/js/function.js"></script>
+<script src="<?php echo base_url();?>application/assets/js/function?v=1.js"></script>
 <script>
     $(document).foundation();
 </script>

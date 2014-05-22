@@ -22,6 +22,9 @@ src: url(../fonts/AccordAlt_Medium.otf);
 	color:white;
 	border-bottom: 3px solid white;
 }
+h1{
+	font-weight:100;
+}
 .h2{
 	color:#3c3c3c;
 	font-size:2em;
@@ -29,6 +32,10 @@ src: url(../fonts/AccordAlt_Medium.otf);
 	line-height:1.1em;
 	font-weight:200;
 	font-family: accordAlt;
+}
+.nopaddt{
+	padding-top:0px !important;
+	padding-bottom:0px !important;
 }
 h1.red{
 	font-weight:100;
@@ -254,4 +261,21 @@ display: inline-block;
 .play_video:hover{
 	cursor:pointer;
 	cursor:hand;
+}
+.static_full{
+	min-height:100%;
+	width:100%;
+	background:#bf1522;
+	text-align:center;
+	padding-top:40px;
+}
+.s_logo{
+	border:5px solid white;
+	border-radius:100%;
+	background:transparent;
+	padding:15px;
+	width:90px;
+	height:90px;
+	line-height:50px;
+	margin:0 auto;
 }

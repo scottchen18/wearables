@@ -83,6 +83,35 @@ class Main extends CI_Controller {
 
 	}
 	
+	public function about()
+	{	
+		
+		/*$this->db->where('email','r@clayza.com');
+		$query = $this->db->get('user');
+		$query = $query->row_array();*/
+		
+		$data['title'] = 'Simply';
+		$data['meta'] = '
+						<meta name="description" content="" />
+						
+						';
+		$data['f_meta'] = '
+			<meta property="og:locale" content="en_US" />
+			<meta property="og:type" content="article" />
+			<meta property="og:title" content="" />
+			<meta property="description" content="" />
+			<meta property="og:image" content="" />
+			<meta property="og:url" content="" />
+			<meta property="og:site_name" content="" />';
+		
+		
+		$data['page'] = "home";
+		$this->load->view('headers/header',$data);
+		$this->load->view('main/static',$data);
+		$this->load->view('headers/footer',$data);
+
+	}
+	
 	public function page($page){
 		
 		$this->session->set_flashdata('page', $page);
