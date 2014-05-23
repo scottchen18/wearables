@@ -73,7 +73,7 @@ h1.red{
 }
 .page2{
 	padding:80px 0px;
-	background:url(../img/pivot1.png);
+	background:url(../img/bionym.jpg);
 	background-size:cover;
 	background-position:center center;
 	font-family: "vollkorn", cambria, georgia, serif;
@@ -89,7 +89,7 @@ h1.red{
 	padding:2em 0em;
 }
 .logo_title{
-	height:7em;
+	width:550px;
 }
 .img_h{
 	height:95px;
@@ -236,12 +236,12 @@ line-height: inherit;
 div.social_links img {
 width: 16px;
 margin-right: 10px;
-opacity: 0.8;
+opacity: 1;
 display: inline-block;
 }
 .sponsor_img{
 	height:90px;
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(0%);
 	       -moz-filter: grayscale(100%);
 	         -o-filter: grayscale(100%);
 	        -ms-filter: grayscale(100%);
@@ -265,7 +265,7 @@ display: inline-block;
 .static_full{
 	min-height:100%;
 	width:100%;
-	background:#bf1522;
+	background:#676767;
 	text-align:center;
 	padding-top:40px;
 }

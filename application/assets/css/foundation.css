@@ -1467,7 +1467,7 @@ meta.foundation-mq-topbar {
   height: 60px;
   line-height: 60px;
   position: relative;
-  background: #de422c;
+  background: #333333;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1708,7 +1708,9 @@ meta.foundation-mq-topbar {
       line-height: 60px;
       background: #3c3c3c;
  	  font-weight:200;
-	  letter-spacing:0.04em;}
+	  letter-spacing:0.04em;
+	  font-family: accordAlt;
+	  font-size: 1em;}
       .top-bar-section li a:not(.button):hover {
         background: #272727; }
     .top-bar-section .has-dropdown > a {

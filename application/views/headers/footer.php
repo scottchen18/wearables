@@ -8,16 +8,13 @@
 					<div class="sub_text4Footer">
 						<ul class="f_list">
 
-							<a href="<?php echo base_url();?>about"><li>About Us</li></a>
-							<a href="<?php echo base_url();?>about" target="blank_"><li>Press</li></a>
-							<a href="<?php echo base_url();?>about"><li>Join The Movement</li></a>
-							<a href="<?php echo base_url();?>about"><li>Contact Us</li></a>
+							<a href="<?php echo base_url();?>about"><li>About</li></a>
+							<a href="<?php echo base_url();?>about"><li>Contact</li></a>
 
 						</ul>
 						
-						<div class="social_links"><a target="_blank" href="http://www.facebook.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/facebook-white-16px.png"></a>
+						<div class="social_links">
 						<a target="_blank" href="http://www.twitter.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/twitter-white-16px.png"></a>
-						<a target="_blank" href="http://blog.projectspac.es"><img src="https://s3.amazonaws.com/webImages/tumblr-white-16px.png"></a>
 						<a target="_blank" href="http://www.instagram.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/instagram-white-16px.png"></a>
 						<a target="_blank" href="http://www.youtube.com/wearewearables"><img src="https://s3.amazonaws.com/webImages/youtube-white-16px.png"></a>
 						</div>

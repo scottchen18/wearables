@@ -1,5 +1,11 @@
 <input type="hidden" id="page" value="<?php echo $page;?>">
-<section class="landing">
+<section style="background:url(<?php echo base_url();?>application/assets/img/WAW-2713copy.jpg);-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+color: white;
+background-position: 50% 0%;" class="landing">
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="s_center nav_logo">
@@ -101,10 +107,10 @@
 		</div>
 		
 		<div class="small-12 medium-4 columns bl e_date">
-			<p class="p2"><span class="sp1">Wed May 28</span><br>
+			<p class="p2"><span class="sp1">Wednesday, May 28th</span><br>
 				7:00pm - 10:00pm<br>
-				<span class="sp1">Mars Discover District</span><br>
-				101 College Street
+				<span class="sp1">Mars Discovery District</span><br>
+				101 College Street, Toronto
 			</p>
 			<a class="custom2" href="http://www.meetup.com/Wearable-Wednesday-Toronto/events/181497672/" target="_blank">Register</a>
 		</div>
@@ -173,10 +179,10 @@
 				<span class="fs" >Featured Story</span>
 			</div>
 			<div>
-				<span class="ph">Pivothead</span>
+				<span class="ph">Bionym</span>
 			</div>
 			<div class="fs">
-				A kick ass article by Tom Emrich
+				Put Your Heart Into It
 			</div></a>
 		</div>
 	</div>

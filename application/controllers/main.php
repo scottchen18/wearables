@@ -31,18 +31,18 @@ class Main extends CI_Controller {
 		$query = $this->db->get('user');
 		$query = $query->row_array();*/
 		
-		$data['title'] = 'Simply';
+		$data['title'] = 'We Are Wearables';
 		$data['meta'] = '
-						<meta name="description" content="" />
+						<meta name="description" content="We Are Wearables is on a mission to make wearable tech accessible to people and businesses. Our hope is that by bringing people together with the tech we can work together to usher in this third wave of computing." />
 						
 						';
 		$data['f_meta'] = '
 			<meta property="og:locale" content="en_US" />
 			<meta property="og:type" content="article" />
-			<meta property="og:title" content="" />
-			<meta property="description" content="" />
-			<meta property="og:image" content="" />
-			<meta property="og:url" content="" />
+			<meta property="og:title" content="We Are Wearables" />
+			<meta property="description" content="We Are Wearables is on a mission to make wearable tech accessible to people and businesses. Our hope is that by bringing people together with the tech we can work together to usher in this third wave of computing." />
+			<meta property="og:image" content="http://localhost/application/assets/img/w_logo.jpg" />
+			<meta property="og:url" content="www.wearewearables.com" />
 			<meta property="og:site_name" content="" />
 		
 							';
@@ -61,9 +61,9 @@ class Main extends CI_Controller {
 		$query = $this->db->get('user');
 		$query = $query->row_array();*/
 		
-		$data['title'] = 'Simply';
+		$data['title'] = 'Featured Story - Bionym';
 		$data['meta'] = '
-						<meta name="description" content="" />
+						<meta name="description" content="Put Your Heart Into It" />
 						
 						';
 		$data['f_meta'] = '
@@ -90,18 +90,18 @@ class Main extends CI_Controller {
 		$query = $this->db->get('user');
 		$query = $query->row_array();*/
 		
-		$data['title'] = 'Simply';
+		$data['title'] = 'About';
 		$data['meta'] = '
-						<meta name="description" content="" />
+						<meta name="description" content="About We Are Wearables" />
 						
 						';
 		$data['f_meta'] = '
 			<meta property="og:locale" content="en_US" />
 			<meta property="og:type" content="article" />
-			<meta property="og:title" content="" />
-			<meta property="description" content="" />
-			<meta property="og:image" content="" />
-			<meta property="og:url" content="" />
+			<meta property="og:title" content="About - We Are Wearables" />
+			<meta property="description" content="We Are Wearables is on a mission to make wearable tech accessible to people and businesses. Our hope is that by bringing people together with the tech we can work together to usher in this third wave of computing." />
+			<meta property="og:image" content="http://localhost/application/assets/img/w_logo.jpg" />
+			<meta property="og:url" content="www.wearewearables.com/about" />
 			<meta property="og:site_name" content="" />';
 		
 		

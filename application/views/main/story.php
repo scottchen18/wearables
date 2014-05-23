@@ -23,10 +23,10 @@
 				<span class="fs" >Featured Story</span>
 			</div>
 			<div>
-				<span class="ph">Pivothead</span>
+				<span class="ph">Bionym</span>
 			</div>
 			<div class="fs">
-				A kick ass article by Tom Emrich
+				Put Your Heart Into It
 			</div>
 		</div>
 	</div>
