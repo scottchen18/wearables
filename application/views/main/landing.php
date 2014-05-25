@@ -1,5 +1,5 @@
 <input type="hidden" id="page" value="<?php echo $page;?>">
-<section style="background:url(<?php echo base_url();?>application/assets/img/WAW-2713copy.jpg);-webkit-background-size: cover;
+<section style="background:url(<?php echo base_url();?>application/assets/img/devices3-lighter-grey-01.png);-webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
