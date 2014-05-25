@@ -16,17 +16,17 @@
 </nav>
 </div>
 
-<section class="page2">
+<section class="page2Story">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<div style="margin-bottom:30px">
 				<span class="fs" >Featured Story</span>
 			</div>
 			<div>
-				<span class="ph">Bionym</span>
+				<span class="ph">Nymi</span>
 			</div>
 			<div class="fs">
-				Put Your Heart Into It
+				The Heartbeat Authentication Bracelet
 			</div>
 		</div>
 	</div>
@@ -38,9 +38,9 @@
 	<div class="small-12 medium-4 columns">
 		<div class="play_video">
 			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
-			<div class="video_place"></div>
+			<div class="video_place"><img src="<?php echo base_url();?>application/assets/img/bionym-video.png"></div>
 		</div>
-		<iframe  width="100%" height="900px" src="//vandrico.com/widget/device/206?long_desc=long_desc&company=company&device_name=device_name&release=release&price=price&comp=comp" frameborder="0" allowfullscreen style="overflow-x:hidden"></iframe>
+		<iframe width="100%" height="900px" src="//vandrico.com/widget/device/211?long_desc=long_desc&company=company&device_name=device_name&release=release&price=price&comp=comp" frameborder="0" allowfullscreen style="overflow-x:hidden"></iframe>
 		
 	</div>
 	<div class="medium-8 columns">
@@ -69,4 +69,5 @@
 		</p>
 	</div>
 </div>
+<div style="padding:20px 0px"></div>
 </section>

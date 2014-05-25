@@ -9,7 +9,7 @@
 						<ul class="f_list">
 
 							<a href="<?php echo base_url();?>about"><li>About</li></a>
-							<a href="<?php echo base_url();?>about"><li>Contact</li></a>
+							<a href="mailto:emrichtom@gmail.com"><li>Contact</li></a>
 
 						</ul>
 						

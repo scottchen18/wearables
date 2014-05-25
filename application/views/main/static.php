@@ -28,14 +28,28 @@
 	<div class="small-9 columns content">
 		<h1> About</h1>
 		
-		<p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elementum sit amet diam eu imperdiet. Aliquam a nisl sodales, pellentesque lectus fringilla, eleifend mauris. Morbi aliquam dignissim lobortis. Etiam placerat nisi risus, sed porttitor nisl dictum quis. Nam lobortis, odio vitae vestibulum luctus, justo tellus tincidunt mi, eu pellentesque tellus sem et leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque posuere, libero quis faucibus posuere, diam mi facilisis velit, non sagittis nibh nunc sit amet velit. Nullam vestibulum ornare est id pulvinar. Nulla facilisi.
+		<p class="p2">The momentum behind wearable technology is immense and it is growing fast. In the past two weeks alone we have seen Google release Android Wear, an extension of the Android operating system for smartwatches; Samsung launch its Tizen SDK; Intel complete their purchase of Basis Science; and Facebook acquire VR headset Oculus for $2 billion dollars.</p>
+
+		<p class="p2">Here at home, Canada is proving to be a force to be reckoned with in wearable tech. Toronto and the surrounding areas are an epicenter for wearables especially if we look at the number of startups creating game changing devices that will leave a lasting impression on how we live our everyday lives</p>
+
+		<p class="p2">In the past three months, you as a community have shown a tremendous amount of curiosity, enthusiasm and dedication to this space. You have proven that Wearable Wednesday Toronto is more than just a one-day a month occurrence. It is a movement!</p>
+
+		<p class="p2">We are a Movement.</p>
+
+		<p class="p2">We are Wearables!</p>
+
+		<p class="p2">To reflect this I am excited to announce that Wearable Wednesday Toronto has rebranded to We Are Wearables.</p>
+
+		<p class="p2">Under this new brand we will be able to widen our scope to allow us to even better meet our mission to collectively foster the necessary ecosystem around this new tech to move this industry forward and make it a success</p>
+
+		<p class="p2">We will continue to have our regularly monthly WWTO events, which now stands for We Are Wearables Toronto. There is no change to this meetup outside of the name. We are still dedicated to bringing together experts and startups in the wearable space for some fantastic discussions and demos.</p>
+
+		<p class="p2">But you can expect to see other events pop-up in this city and possibly others. We are also taking WWTO on the road to bring workshops, lunch-and-learns and presentations to companies, brands, and agencies who want to have this discussion with their teams or clients.</p>
+
+		<p class="p2">And we will be launching our official website in the next couple of weeks which will acts a hub for the community and an online resource for wearable tech.</p>
+
+		<p class="p2">Thank you for making this happen. We Are Wearables, and I am excited to see where we all take this.
 		</p>
-		
-		<p class="p2">In malesuada, nulla eu commodo faucibus, orci lorem bibendum justo, vitae dapibus mauris justo in mauris. Donec id elit vitae libero placerat viverra. Duis vulputate quam sed magna scelerisque dapibus. Vestibulum at nisi mollis, euismod purus tempor, feugiat tortor. Donec aliquet ac tellus laoreet dignissim. Aenean venenatis dui a mi tempor vehicula. Sed tincidunt magna ut ante pretium, sit amet adipiscing odio auctor.
-		</p>
-		
-	<p class="p2">	Praesent venenatis vitae felis non consequat. Integer posuere vitae lacus ut dignissim. Donec feugiat sem in faucibus fermentum. In non adipiscing arcu. Quisque mollis commodo dignissim. Fusce et cursus diam. In quis convallis lectus, at suscipit nisl. Ut a imperdiet orci, id semper arcu. In vulputate, tellus ut tincidunt luctus, mauris erat sodales leo, sed blandit mi erat quis turpis. Donec pulvinar dui eu dictum consectetur. Cras rutrum eget purus eget aliquet. Nunc tellus nunc, posuere nec posuere ut, sodales ac dolor. Nam porttitor ornare ligula ut porttitor. Donec quis gravida urna. Etiam porta nisl in elit adipiscing scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-	</p>
 
 	</div>
 </div>

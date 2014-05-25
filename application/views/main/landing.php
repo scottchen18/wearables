@@ -43,7 +43,7 @@ background-position: 50% 0%;" class="landing">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<p class="p1">
-				We Are Wearables is on a mission to make wearable tech accessible to people and businesses. Our hope is that by bringing people together with the tech we can work together to usher in this third wave of computing.
+				Connecting people and businesses to the world of wearable technology.
 			</p>
 		</div>
 	</div>
@@ -172,17 +172,17 @@ background-position: 50% 0%;" class="landing">
 	</div>
 </section>
 
-<section id="feature" class="page2">
+<section id="feature" class="page2Story">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<a class="featured_story"><div style="margin-bottom:30px">
 				<span class="fs" >Featured Story</span>
 			</div>
 			<div>
-				<span class="ph">Bionym</span>
+				<span class="ph">Nymi</span>
 			</div>
 			<div class="fs">
-				Put Your Heart Into It
+				The Heartbeat Authentication Bracelet
 			</div></a>
 		</div>
 	</div>
@@ -199,19 +199,19 @@ background-position: 50% 0%;" class="landing">
 	<div class="row">
 		<div class="small-12 medium-4 columns s_center play_video">
 			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
-			<div class="video_place"></div>
+			<div class="video_place"><img src="<?php echo base_url();?>application/assets/img/bionym-video.png"></div>
 			<div class="video_title"> Video Title 1</div>
 		</div>
 		
 		<div class="small-12 medium-4 columns s_center play_video">
 			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
-			<div class="video_place"></div>
+			<div class="video_place"><img src="<?php echo base_url();?>application/assets/img/bionym-video.png"></div>
 			<div class="video_title"> Video Title 2</div>
 		</div>
 		
 		<div class="small-12 medium-4 columns s_center play_video">
 			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
-			<div class="video_place"></div>
+			<div class="video_place"><img src="<?php echo base_url();?>application/assets/img/bionym-video.png"></div>
 			<div class="video_title"> Video Title 3</div>
 		</div>
 	</div>
@@ -243,7 +243,7 @@ function show_video(url){
 	$('#video_pop').center(false);
 	$('#video_pop').hide();
 	$('#video_pop').fadeIn('slow',function(){
-		$('#y_video').html('<iframe width="'+width+'" height="'+(width/1.7777)+'" src="//www.youtube.com/embed/43wIp2eDvDw" frameborder="0" allowfullscreen></iframe>');
+		$('#y_video').html('<iframe width="'+width+'" height="'+(width/1.7777)+'" src="//www.youtube.com/embed/jUO7Qnmc8vE" frameborder="0" allowfullscreen></iframe>');
 	});
 
 	$('.bgfade').css('height',$(document).height());
@@ -262,7 +262,7 @@ var padding = ($('.e_info').height() - $('.e_date').height()) /2;
 	$('.e_date').css('padding-top',padding);
 	$('.e_date').css('padding-bottom',padding);
 	
-var landing = (($(window).height() * 0.75) - $('.nav_logo').height()) /2.5;
+var landing = (($(window).height() * 0.95) - $('.nav_logo').height()) /2.5;
 	$('.landing').css('padding-top',landing);
 	$('.landing').css('padding-bottom',landing);
 </script>

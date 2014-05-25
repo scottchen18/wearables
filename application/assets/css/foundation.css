@@ -1524,11 +1524,11 @@ meta.foundation-mq-topbar {
       margin-top: -16px;
       padding-left: 40px; }
       .top-bar .toggle-topbar.menu-icon a {
-        text-indent: -48px;
+        text-indent: -10px;
         width: 34px;
         height: 34px;
         line-height: 33px;
-        padding: 0;
+        padding: 7px 0px 0px 0px;
         color: white; }
         .top-bar .toggle-topbar.menu-icon a span {
           position: absolute;
