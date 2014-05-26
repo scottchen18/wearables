@@ -47,34 +47,52 @@ background-position: 50% 0%;" class="landing">
 			</p>
 		</div>
 	</div>
-	<section style="max-width:50em;margin:40px auto;">
+	<section style="margin:40px auto;">
 	<div class="row">
-		<div class="small-6 medium-3 columns s_center">
-			<div class="sub_h_img">
-				<img class="img_h" src="<?php echo base_url();?>application/assets/img/calendar.png">
+		<div class="small-6 medium-3 columns s_center nopadd">
+			<div class="wwa_s" style="background:#DAD700">
+				<div class="sub_h1">Events</div>
+				<div class="s_center img_s">
+					<img class="img_h" src="<?php echo base_url();?>application/assets/img/calendar.png">
+				</div>
+				<div class="sub_h2">Loreum Ipsum</div>
+				
 			</div>
-			<div class="sub_h1">Events</div>
 		</div>
 		
-		<div class="small-6 medium-3 columns s_center">
-			<div class="sub_h_img">
-				<img class="img_h"  style="margin:27px 0px 0px 13px" src="<?php echo base_url();?>application/assets/img/puzzle.png">
+		<div class="small-6 medium-3 columns s_center nopadd">
+			<div class="wwa_s" style="background:#1485CC">
+				<div class="sub_h1">Education</div>
+				<div class="s_center img_s">
+					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/puzzle.png">
+				</div>
+				<div class="sub_h2">Loreum Ipsum</div>
+				
 			</div>
-			<div class="sub_h1">Education</div>
 		</div>
 		
-		<div class="small-6 medium-3 columns s_center">
-			<div class="sub_h_img">
-				<img class="img_h"  src="<?php echo base_url();?>application/assets/img/bulb.png">
+		<div class="small-6 medium-3 columns s_center nopadd">
+			<div class="wwa_s" style="background:#FF0000">
+				<div class="sub_h1">Collaboration</div>
+				<div class="s_center img_s">
+					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/bulb.png">
+				</div>
+				<div class="sub_h2">Loreum Ipsum</div>
+				
 			</div>
-			<div class="sub_h1">Collaboration</div>
+			
 		</div>
 		
-		<div class="small-6 medium-3 columns s_center">
-			<div class="sub_h_img">
-				<img class="img_h"  src="<?php echo base_url();?>application/assets/img/brain.png">
+		<div class="small-6 medium-3 columns s_center nopadd">
+			<div class="wwa_s" style="background:#09B209">
+				<div class="sub_h1">Resources</div>
+				<div class="s_center img_s">
+					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/brain.png">
+				</div>
+				<div class="sub_h2">Loreum Ipsum</div>
+				
 			</div>
-			<div class="sub_h1">Resources</div>
+			
 		</div>			
 	</div>
 
@@ -218,15 +236,18 @@ background-position: 50% 0%;" class="landing">
 </section>
 
 <script>
-// $('.video_container').hover(function(){
-// 	$(this).find('.video_screen').animate({marginTop:'+=210px'},200,function(){});
-// 	$(this).find('.video_title').show();
-// 	
-// 	},function(){
-// 	$(this).find('.video_title').hide();
-// 	$(this).find('.video_screen').animate({marginTop:'-=210px'},200);
-// 	}
-// );
+//tile effect
+$('.wwa_s').hover(function(){
+	$(this).find('.sub_h1').animate({marginTop:'-=80px'},200,function(){});
+	$(this).find('.img_s').animate({marginTop:'-=10px'},400,function(){});
+	$(this).find('.sub_h2').animate({marginTop:'-=80px'},200,function(){});
+	
+	},function(){
+		$(this).find('.sub_h1').animate({marginTop:'+=80px'},200,function(){});
+		$(this).find('.img_s').animate({marginTop:'+=10px'},400,function(){});
+		$(this).find('.sub_h2').animate({marginTop:'+=80px'},200,function(){});
+	}
+);
 
 $('.play_video').click(function(){show_video($(this).attr('data-rel'));});
 $('.featured_story').click(function(){location.href=baseUrl+'/feature';});

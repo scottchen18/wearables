@@ -91,7 +91,7 @@ function scroll_navigation(){
 	var page = $(this).attr('rel');
 	$('html, body').animate({
 	    scrollTop: $('#'+page).offset().top - 60
-	}, 2000);
+	}, 1200);
 }
 
 function jump_page(page){

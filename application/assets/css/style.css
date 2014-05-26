@@ -33,9 +33,13 @@ h1{
 	font-weight:200;
 	font-family: accordAlt;
 }
+.nopadd{
+	padding:0px !important;
+}
 .nopaddt{
 	padding-top:0px !important;
 	padding-bottom:0px !important;
+	
 }
 h1.red{
 	font-weight:100;
@@ -99,10 +103,7 @@ h1.red{
 .logo_title{
 	width:550px;
 }
-.img_h{
-	height:95px;
-	margin-top:25px;
-}
+
 .e_img{
 	border-radius:5px;
 }
@@ -165,6 +166,27 @@ a.custom2:hover{
 	margin-top:10px;
 	text-align:center;
 	font-family: accordAlt;
+	position:absolute;
+	width:100%;
+}
+.sub_h2{
+	margin-top:225px;
+	position:absolute;
+	width:100%;
+	color:white;
+	font-weight:100;
+	font-size:24px;
+	text-align:center;
+	font-family: accordAlt;
+}
+.img_h{
+	height:95px;
+	
+}
+.img_s{
+	position:absolute;
+	margin-top:45px;
+	width:100%;
 }
 .sub_h_img{
 	width:150px;
@@ -274,7 +296,7 @@ display: inline-block;
 	cursor:hand;
 }
 .static_full{
-	min-height:100%;
+	min-height:100%;f
 	width:100%;
 	background:#bf1522;
 	text-align:center;
@@ -289,4 +311,11 @@ display: inline-block;
 	height:90px;
 	line-height:50px;
 	margin:0 auto;
+}
+.wwa_s{
+	position:relative;
+	padding:20px 0px;
+	overflow:hidden;
+	height:220px;
+
 }

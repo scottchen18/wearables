@@ -6,8 +6,8 @@
 
     <title><?php echo $title;?></title>
 
-    <link rel="stylesheet" href="<?php echo base_url();?>application/assets/css/foundation.css?v=1" />
-	<link rel="stylesheet" href="<?php echo base_url();?>application/assets/css/style.css" />
+    <link rel="stylesheet" href="<?php echo base_url();?>application/assets/css/foundation.css?v=2" />
+	<link rel="stylesheet" href="<?php echo base_url();?>application/assets/css/style.css?v=2" />
 	<script src="<?php echo base_url();?>application/assets/js/jquery.js"></script>
 	<script src="<?php echo base_url();?>application/assets/js/config.js"></script>
 	<?php echo $meta;?>
