@@ -58,6 +58,8 @@ function show_video(url){
 
 	if(!mobile){
 	var width = $(window).width() * 0.7;
+	$('body').css('max-height',$(window).height());
+	$('body').css('overflow','hidden');
 	$('.bgfade').fadeIn('slow');
 	
 	$('#video_pop').show();
@@ -70,9 +72,10 @@ function show_video(url){
 	$('#video_pop').fadeIn('slow',function(){
 		$('#y_video').html('<iframe width="'+width+'" height="'+(width/1.7777)+'" src="//www.youtube.com/embed/jUO7Qnmc8vE" frameborder="0" allowfullscreen></iframe>');
 	});
-
+	
 	$('.bgfade').css('height',$(document).height());
 	$('.bgfade').css('width',$(document).width());
+	
 	
 	$(document).keyup(function(e) {
 		 if (e.keyCode == 27) {close_video();}
@@ -85,6 +88,8 @@ function show_video(url){
 function close_video(){
 	$('.bgfade').fadeOut('slow');
 	$('#video_pop').fadeOut('slow',function(){$('#y_video').html('');});
+	$('body').css('max-height','auto');
+	$('body').css('overflow','auto');
 	
 }
 
