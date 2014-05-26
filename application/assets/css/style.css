@@ -62,7 +62,7 @@ h1.red{
 }
 .fs{
 	font-weight:100;
-	font-size:18px;
+	font-size:20px;
 	font-family: accordAlt;
 	letter-spacing: 0px;
 	text-transform: uppercase;
@@ -276,7 +276,7 @@ opacity: 1;
 display: inline-block;
 }
 .sponsor_img{
-	height:90px;
+	height:100px;
 	-webkit-filter: grayscale(0%);
 	       -moz-filter: grayscale(100%);
 	         -o-filter: grayscale(100%);

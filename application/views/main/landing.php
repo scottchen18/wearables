@@ -43,7 +43,7 @@ background-position: 50% 0%;" class="landing">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<p class="p1">
-				Connecting people and businesses to the world of wearable technology.
+				Connecting people and businesses to the world of wearable technology
 			</p>
 		</div>
 	</div>
@@ -89,7 +89,7 @@ background-position: 50% 0%;" class="landing">
 				<div class="s_center img_s">
 					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/brain.png">
 				</div>
-				<div class="sub_h2">Articles and Videos About Wearable Industry</div>
+				<div class="sub_h2">Articles and Video about the Wearable Tech Industry</div>
 				
 			</div>
 			
@@ -142,7 +142,7 @@ background-position: 50% 0%;" class="landing">
 		<div class="small-12 columns s_center">
 			<h1 class="red">Sponsors</h1> 
 			<p class="p2">
-				"Coming together is a beginning; keeping together is progress; working together is success." -Henry Ford
+				"Coming together is a beginning; keeping together is progress; working together is success." ~Henry Ford
 			</p>
 		</div>
 	</div>
