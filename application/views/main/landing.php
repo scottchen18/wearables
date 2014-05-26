@@ -16,7 +16,7 @@ background-position: 50% 0%;" class="landing">
 	</div>
 </section>
 <div  class="contain-to-grid sticky">
-<nav class="top-bar" data-topbar="">
+<nav class="top-bar" data-topbar="" data-options="scrolltop:false;">
     <ul class="title-area cap">
         <li class="name">
 <a href="<?php echo base_url();?>" class="nominw"><img style="width:32px;margin:14px 0px 0px 20px;" src="<?php echo base_url();?>application/assets/img/wearables-icon-white.png"></a>
@@ -124,7 +124,7 @@ background-position: 50% 0%;" class="landing">
 			</p>
 		</div>
 		
-		<div class="small-12 medium-4 columns bl e_date">
+		<div class="small-12 medium-4 columns bl e_date show-for-medium-up">
 			<p class="p2"><span class="sp1">Wednesday, May 28th</span><br>
 				7:00pm - 10:00pm<br>
 				<span class="sp1">Mars Discovery District</span><br>
@@ -132,6 +132,16 @@ background-position: 50% 0%;" class="landing">
 			</p>
 			<a class="custom2" href="http://www.meetup.com/Wearable-Wednesday-Toronto/events/181497672/" target="_blank">Register</a>
 		</div>
+		
+		<div class="small-10 small-offset-2 medium-4 columns e_date show-for-small-only">
+				<p class="p2"><span class="sp1">Wednesday, May 28th</span><br>
+					7:00pm - 10:00pm<br>
+					<span class="sp1">Mars Discovery District</span><br>
+					101 College Street, Toronto
+				</p>
+				<a class="custom2" href="http://www.meetup.com/Wearable-Wednesday-Toronto/events/181497672/" target="_blank">Register</a>
+		</div>
+		
 	</div>
 </section>
 
@@ -254,34 +264,7 @@ $('.wwa_s').hover(function(){
 
 $('.play_video').click(function(){show_video($(this).attr('data-rel'));});
 $('.featured_story').click(function(){location.href=baseUrl+'/feature';});
-function show_video(url){
-	
-	var width = $(window).width() * 0.7;
-	$('.bgfade').fadeIn('slow');
-	
-	$('#video_pop').show();
-	$('#y_video').css('width',width);
-	$('#y_video').css('height',(width/1.7777));
-	
-	$('#video_pop').css('width',width);
-	$('#video_pop').center(false);
-	$('#video_pop').hide();
-	$('#video_pop').fadeIn('slow',function(){
-		$('#y_video').html('<iframe width="'+width+'" height="'+(width/1.7777)+'" src="//www.youtube.com/embed/jUO7Qnmc8vE" frameborder="0" allowfullscreen></iframe>');
-	});
 
-	$('.bgfade').css('height',$(document).height());
-	$('.bgfade').css('width',$(document).width());
-	
-	$(document).keyup(function(e) {
-		 if (e.keyCode == 27) {close_video();}
-	});
-}
-function close_video(){
-	$('.bgfade').fadeOut('slow');
-	$('#video_pop').fadeOut('slow',function(){$('#y_video').html('');});
-	
-}
 var padding = ($('.e_info').height() - $('.e_date').height()) /2;
 	$('.e_date').css('padding-top',padding);
 	$('.e_date').css('padding-bottom',padding);

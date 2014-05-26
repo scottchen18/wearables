@@ -35,7 +35,7 @@
 <section>
 	<div style="padding:20px 0px"></div>
 <div class="row">
-	<div class="small-12 medium-4 columns">
+	<div class="small-12 medium-4 columns show-for-medium-up">
 		<div class="play_video">
 			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
 			<div class="video_place"><img src="<?php echo base_url();?>application/assets/img/bionym-video.png"></div>
@@ -67,6 +67,15 @@
 
 		<p class="p2">Thank you for making this happen. We Are Wearables, and I am excited to see where we all take this.
 		</p>
+	</div>
+	
+	<div class="small-12 medium-4 columns show-for-small-only">
+		<div class="play_video">
+			<div class="play_button"><img src="https://s3.amazonaws.com/webImages/entry-icon-video-light-50px.png" ></div>
+			<div class="video_place"><img src="<?php echo base_url();?>application/assets/img/bionym-video.png"></div>
+		</div>
+		<iframe width="100%" height="900px" src="//vandrico.com/widget/device/211?long_desc=long_desc&company=company&device_name=device_name&release=release&price=price&comp=comp" frameborder="0" allowfullscreen style="overflow-x:hidden"></iframe>
+		
 	</div>
 </div>
 <div style="padding:20px 0px"></div>

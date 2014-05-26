@@ -328,3 +328,12 @@ display: inline-block;
 .sponsor_med{
 	max-width:19%;min-width:19%;display:inline-block;text-align:center;
 }
+.close_vid{
+	float:right;margin:10px;font-size:40px;font-weight:100;color:white;
+	top:-20px;
+	right:-20px;
+}
+.close_vid:hover{
+	cursor:pointer;
+	cursor:hand;
+}
