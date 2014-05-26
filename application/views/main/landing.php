@@ -50,7 +50,7 @@ background-position: 50% 0%;" class="landing">
 	<section style="margin:40px auto 0px;">
 	<div class="row">
 		<div class="small-6 medium-3 columns s_center nopadd">
-			<div class="wwa_s" style="background:#0e879a">
+			<div class="wwa_s" style="background:#bf1522">
 				<div class="sub_h1">Events</div>
 				<div class="s_center img_s">
 					<img class="img_h" src="<?php echo base_url();?>application/assets/img/calendar.png">
@@ -72,7 +72,7 @@ background-position: 50% 0%;" class="landing">
 		</div>
 		
 		<div class="small-6 medium-3 columns s_center nopadd">
-			<div class="wwa_s" style="background:#0e879a">
+			<div class="wwa_s" style="background:#3c3c3c">
 				<div class="sub_h1">Collaboration</div>
 				<div class="s_center img_s">
 					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/bulb.png">
@@ -84,12 +84,12 @@ background-position: 50% 0%;" class="landing">
 		</div>
 		
 		<div class="small-6 medium-3 columns s_center nopadd">
-			<div class="wwa_s" style="background:#e49d01">
+			<div class="wwa_s" style="background:#0e879a">
 				<div class="sub_h1">Resources</div>
 				<div class="s_center img_s">
 					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/brain.png">
 				</div>
-				<div class="sub_h2">Sharing Wearable Tech Stories</div>
+				<div class="sub_h2">Articles and Videos About Wearable Industry</div>
 				
 			</div>
 			
@@ -136,7 +136,7 @@ background-position: 50% 0%;" class="landing">
 </section>
 
 <section class="border"></section>
-<section style="background:#efefef;" class="page3">
+<section style="background:white;" class="page3">
 	
 	<div class="row">
 		<div class="small-12 columns s_center">

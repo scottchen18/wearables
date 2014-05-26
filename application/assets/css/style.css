@@ -14,7 +14,7 @@ src: url(../fonts/AccordAlt_Medium.otf);
 .ph{
 	font-weight:100;
 	font-size:120px;
-	font-family: "vollkorn", cambria, georgia, serif;
+	font-family: accordAlt;
 	letter-spacing: -1px;
 	text-transform: uppercase;
 	padding-bottom:10px;
@@ -63,7 +63,7 @@ h1.red{
 .fs{
 	font-weight:100;
 	font-size:18px;
-	font-family: "vollkorn", cambria, georgia, serif;
+	font-family: accordAlt;
 	letter-spacing: 0px;
 	text-transform: uppercase;
 	padding-bottom:10px;
@@ -72,7 +72,7 @@ h1.red{
 	margin-top:70px;
 }
 .page1{
-	background:#bf1522;
+	background:white;
 	padding:80px 0px;
 }
 .page2{
@@ -93,6 +93,7 @@ h1.red{
 }
 .page3{
 	padding:80px 0px;
+	background:#efefef;
 }
 .s_center{
 	text-align:center;
@@ -102,7 +103,7 @@ h1.red{
 }
 .logo_title{
 	width:550px;
-	background:white;
+	background:rgba(255,255,255,0.6);
 }
 
 .e_img{
@@ -155,7 +156,7 @@ a.custom2:hover{
 	transition: background 0.2s ease-in-out;
 }
 .wwa{
-	color:white;
+	color:#bf1522;
 	font-size:40px;
 	font-family: accordAlt;
 	text-transform:uppercase;
@@ -204,7 +205,7 @@ p.p1{
 	font-size:20px;
 	text-align:center;
 	font-family: accordAlt;	
-	color:white;
+	color:#333333;
 	line-height:25px;
 	width:90%;
 	margin:0 auto;
@@ -230,7 +231,7 @@ p.p1{
 	font-weight:100;
 }
 .footer{
-	background:#bf1522;
+	background:#3c3c3c;
 	padding:30px 0px;
 }
 div.f_box {

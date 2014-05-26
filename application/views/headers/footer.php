@@ -24,7 +24,7 @@
 		
 		<div class="small-12 medium-4 columns f_box">
 					<div style="margin-bottom:28px;" class="f_top">Twitter @WeAreWearables</div>
-					<a class="twitter-timeline" data-tweet-limit="3" data-link-color="#bf1522" data-border-color="#bf1522" data-background-color="#efefef" href="https://twitter.com/WeAreWearables" data-widget-id="469174070731218944">Tweets by @WeAreWearables</a>
+					<a class="twitter-timeline" data-tweet-limit="3" data-link-color="#bf1522" data-border-color="#3c3c3c" data-background-color="#efefef" href="https://twitter.com/WeAreWearables" data-widget-id="469174070731218944">Tweets by @WeAreWearables</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 					
