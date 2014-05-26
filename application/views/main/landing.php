@@ -147,45 +147,48 @@ background-position: 50% 0%;" class="landing">
 		</div>
 	</div>
 	
-	<div class="row">
-		<div class="small-12 medium-3 columns s_center">
+	<div class="row show-for-small-only">
+		<div class="small-6 columns s_center">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
 		
 		</div>
 		
-		<div class="small-12 medium-3 columns s_center">
+		<div class="small-6 columns s_center">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
 		
 		</div>
 		
-		<div class="small-12 medium-3 columns s_center">
+		<div class="small-6 columns s_center">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
 		
 		</div>
-		<div class="small-12 medium-3 columns s_center">
+		<div class="small-6  columns s_center">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+		
+		</div>
+		<div class="small-6  columns s_center">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
 		
 		</div>
 	</div>
 	
-	<div class="row">
-		<div class="small-12 medium-3 columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
-		
-		</div>
-		
-		<div class="small-12 medium-3 columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
-		
-		</div>
-		
-		<div class="small-12 medium-3 columns s_center">
+	<div class="row show-for-medium-up">
+		<div class="small-12 columns">
+		<div class="sponsor_med">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
-		
 		</div>
-		<div class="small-12 medium-3 columns s_center">
+		<div class="sponsor_med">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
-		
+		</div>
+		<div class="sponsor_med">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+		</div>
+		<div class="sponsor_med">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+		</div>
+		<div class="sponsor_med">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+		</div>
 		</div>
 	</div>
 </section>

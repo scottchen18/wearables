@@ -319,3 +319,9 @@ display: inline-block;
 	height:220px;
 
 }
+.content{
+	overflow-y:scroll;
+}
+.sponsor_med{
+	max-width:19%;min-width:19%;display:inline-block;text-align:center;
+}

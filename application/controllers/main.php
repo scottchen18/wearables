@@ -108,7 +108,7 @@ class Main extends CI_Controller {
 		$data['page'] = "home";
 		$this->load->view('headers/header',$data);
 		$this->load->view('main/static',$data);
-		$this->load->view('headers/footer',$data);
+		$this->load->view('headers/footer_static',$data);
 
 	}
 	

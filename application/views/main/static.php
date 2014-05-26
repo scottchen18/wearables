@@ -54,5 +54,6 @@
 	</div>
 </div>
 <script>
+	$('.content').css('height',$(window).height()-65);
 	$('.static_full').css('min-height',$('.content').height()+30);
 </script>
