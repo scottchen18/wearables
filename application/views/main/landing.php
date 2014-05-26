@@ -47,7 +47,7 @@ background-position: 50% 0%;" class="landing">
 			</p>
 		</div>
 	</div>
-	<section style="margin:40px auto;">
+	<section style="margin:40px auto 0px;">
 	<div class="row">
 		<div class="small-6 medium-3 columns s_center nopadd">
 			<div class="wwa_s" style="background:#0e879a">
@@ -149,12 +149,12 @@ background-position: 50% 0%;" class="landing">
 	
 	<div class="row show-for-small-only">
 		<div class="small-6 columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cfc-logo-new.png" >
 		
 		</div>
 		
 		<div class="small-6 columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png" >
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/mars-logo-new.png" >
 		
 		</div>
 		
@@ -163,11 +163,11 @@ background-position: 50% 0%;" class="landing">
 		
 		</div>
 		<div class="small-6  columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/normative-logo-new.png">
 		
 		</div>
 		<div class="small-6  columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cloud-logo-new.png">
 		
 		</div>
 	</div>
@@ -175,19 +175,19 @@ background-position: 50% 0%;" class="landing">
 	<div class="row show-for-medium-up">
 		<div class="small-12 columns">
 		<div class="sponsor_med">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cfc-logo-new.png">
+		</div>
+		<div class="sponsor_med">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/mars-logo-new.png">
 		</div>
 		<div class="sponsor_med">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
 		</div>
 		<div class="sponsor_med">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/normative-logo-new.png">
 		</div>
 		<div class="sponsor_med">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
-		</div>
-		<div class="sponsor_med">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/uproar_logo.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cloud-logo-new.png">
 		</div>
 		</div>
 	</div>
