@@ -2791,12 +2791,12 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #4ec4cf;
+  color: #bf1522;
   font-weight:400;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #2795b6; }
+    color: #3c3c3c; }
   a img {
     border: none; }
 
