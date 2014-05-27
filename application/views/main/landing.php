@@ -265,9 +265,11 @@ $('.wwa_s').hover(function(){
 $('.play_video').click(function(){show_video($(this).attr('data-rel'));});
 $('.featured_story').click(function(){location.href=baseUrl+'/feature';});
 
+if(!mobile){
 var padding = ($('.e_info').height() - $('.e_date').height()) /2;
 	$('.e_date').css('padding-top',padding);
 	$('.e_date').css('padding-bottom',padding);
+}
 	
 var landing = (($(window).height() * 0.95) - $('.nav_logo').height()) /2.5;
 	$('.landing').css('padding-top',landing);

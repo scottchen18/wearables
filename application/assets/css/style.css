@@ -322,8 +322,12 @@ display: inline-block;
 	height:220px;
 
 }
-.content{
-	overflow-y:scroll;
+.static_full{
+	position:fixed;
+	width:13em;
+}
+.static_full_m{
+	
 }
 .sponsor_med{
 	max-width:19%;min-width:19%;display:inline-block;text-align:center;

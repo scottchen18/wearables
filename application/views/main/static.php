@@ -17,8 +17,16 @@
 </div>
 
 <div class="row">
-	<div class="small-12 medium-3 columns nopadd">
+	<div class="small-12 medium-3 columns nopadd show-for-medium-up">
 		<div class="static_full">
+			<div class="s_logo">
+				<img src="<?php echo base_url();?>application/assets/img/wearables-icon-white.png">
+			</div>
+		</div>
+	</div>
+	
+	<div class="small-12 medium-3 columns nopadd show-for-small-only">
+		<div class="static_full_m">
 			<div class="s_logo">
 				<img src="<?php echo base_url();?>application/assets/img/wearables-icon-white.png">
 			</div>
@@ -55,7 +63,7 @@
 </div>
 <script>
 	if(!mobile){
-	$('.content').css('height',$(window).height()-65);
+	//$('.content').css('height',$(window).height()-65);
 	$('.static_full').css('min-height',$('.content').height()+30);
 	}
 </script>
