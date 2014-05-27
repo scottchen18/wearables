@@ -17,7 +17,7 @@
 </div>
 
 <div class="row">
-	<div class="small-3 columns nopaddt">
+	<div class="small-12 medium-3 columns nopadd">
 		<div class="static_full">
 			<div class="s_logo">
 				<img src="<?php echo base_url();?>application/assets/img/wearables-icon-white.png">
@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	
-	<div class="small-9 columns content">
+	<div class="small-12 medium-9 columns content">
 		<h1> About</h1>
 		
 		<p class="p2">The momentum behind wearable technology is immense and it is growing fast. In the past two weeks alone we have seen Google release Android Wear, an extension of the Android operating system for smartwatches; Samsung launch its Tizen SDK; Intel complete their purchase of Basis Science; and Facebook acquire VR headset Oculus for $2 billion dollars.</p>
@@ -54,6 +54,8 @@
 	</div>
 </div>
 <script>
+	if(!mobile){
 	$('.content').css('height',$(window).height()-65);
 	$('.static_full').css('min-height',$('.content').height()+30);
+	}
 </script>

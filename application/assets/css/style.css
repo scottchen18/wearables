@@ -303,7 +303,7 @@ display: inline-block;
 	width:100%;
 	background:#3c3c3c;
 	text-align:center;
-	padding-top:40px;
+	padding:40px 0px;
 }
 .s_logo{
 	border:5px solid white;
