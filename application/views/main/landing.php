@@ -177,7 +177,7 @@ background-position: 50% 0%;" class="landing">
 		
 		</div>
 		<div class="small-6  columns s_center">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cloud-logo-new.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cloud-logo-new-edit.png">
 		
 		</div>
 	</div>
