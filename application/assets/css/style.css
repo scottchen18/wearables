@@ -24,6 +24,8 @@ src: url(../fonts/AccordAlt_Medium.otf);
 }
 h1{
 	font-weight:100;
+	font-family: accordAlt;
+	color:#3c3c3c;
 }
 .h2{
 	color:#3c3c3c;
@@ -211,7 +213,7 @@ p.p1{
 	margin:0 auto;
 }
 .p2{
-	color:#333;
+	color:#3c3c3c;
 	font-weight:200;
 	font-size:18px;
 	
@@ -225,10 +227,11 @@ p.p1{
 	padding-top:27px;
 }
 .video_title{
-	color:#333;
+	color:#3c3c3c;
 	margin-top:10px;
 	font-size:18px;
-	font-weight:100;
+	font-weight:200;
+	font-family: accordAlt;
 }
 .footer{
 	background:#3c3c3c;
@@ -241,6 +244,7 @@ padding: 30px;
 padding: 5px 0px;
 border-bottom: 1px dotted white;
 color:white;
+font-family: accordAlt;
 }
 div.sub_text4Footer {
 padding: 20px 0px;
@@ -258,6 +262,7 @@ ul.f_list li {
 list-style-type: none;
 padding: 0px 0px;
 font-size: 14px;
+font-weight: 200;
 }
 
 ul.f_list  a {
@@ -296,7 +301,7 @@ display: inline-block;
 .static_full{
 	min-height:100%;f
 	width:100%;
-	background:#bf1522;
+	background:#3c3c3c;
 	text-align:center;
 	padding-top:40px;
 }

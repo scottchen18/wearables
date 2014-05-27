@@ -197,7 +197,7 @@ background-position: 50% 0%;" class="landing">
 			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/normative-logo-new.png">
 		</div>
 		<div class="sponsor_med">
-			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cloud-logo-new.png">
+			<img class="sponsor_img" src="<?php echo base_url();?>application/assets/img/cloud-logo-new-edit.png">
 		</div>
 		</div>
 	</div>
@@ -220,7 +220,7 @@ background-position: 50% 0%;" class="landing">
 </section>
 
 <section id="videos" class="border"></section>
-<section class="page3">
+<section style="background:white;" class="page3">
 	<div class="row">
 		<div class="small-12 columns s_center">
 			<h1 class="red">Videos</h1> 
