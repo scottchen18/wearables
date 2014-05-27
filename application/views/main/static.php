@@ -34,29 +34,21 @@
 	</div>
 	
 	<div class="small-12 medium-9 columns content">
-		<h1> About</h1>
+		<h1> About Us</h1>
 		
-		<p class="p2">The momentum behind wearable technology is immense and it is growing fast. In the past two weeks alone we have seen Google release Android Wear, an extension of the Android operating system for smartwatches; Samsung launch its Tizen SDK; Intel complete their purchase of Basis Science; and Facebook acquire VR headset Oculus for $2 billion dollars.</p>
+		<p class="p2">The momentum behind wearable technology is immense and its growing fast. IDC reports that global wearable device shipments will reach over 19 million by the end of 2014 and this will grow exponentially to nearly 112 million by 2018.</p>
 
-		<p class="p2">Here at home, Canada is proving to be a force to be reckoned with in wearable tech. Toronto and the surrounding areas are an epicenter for wearables especially if we look at the number of startups creating game changing devices that will leave a lasting impression on how we live our everyday lives</p>
+		<p class="p2">Despite the fact that this technology is quite new, the landscape is already getting quite complex with many different categories of wearables emerging from smartwatches to smart glasses, biometric shirts and brain-sensing headgear.</p>
 
-		<p class="p2">In the past three months, you as a community have shown a tremendous amount of curiosity, enthusiasm and dedication to this space. You have proven that Wearable Wednesday Toronto is more than just a one-day a month occurrence. It is a movement!</p>
+		<p class="p2">We Are Wearables was created to help people and businesses navigate through the emerging space of wearable technology. We do this by making wearables accessible and opening a dialogue to understand how these new devices impact our everyday lives.</p>
 
-		<p class="p2">We are a Movement.</p>
+		<p class="p2">Our regular community events brings together thought leaders, hardware manufacturers and software developers to discuss the wearable space and often showcase and launch new technology to the market. They always feature dedicated time to network with those in the industry and most importantly provide an opportunity for the attendees to get their hands on the technology that is often not even on the market.</p>
 
-		<p class="p2">We are Wearables!</p>
+		<p class="p2">To further the education of wearables, we also offer workshops and company lunch and learns designed to inspire developers, designers, product managers and others interested in wearables to start their own journey in incorporate wearable technology in their professional roles.</p>
 
-		<p class="p2">To reflect this I am excited to announce that Wearable Wednesday Toronto has rebranded to We Are Wearables.</p>
+		<p class="p2">This site also serves as a resource for wearable tech as we share stories of the people, teams and technology leading the charge in this emerging space in interviews, articles and video.</p> 
 
-		<p class="p2">Under this new brand we will be able to widen our scope to allow us to even better meet our mission to collectively foster the necessary ecosystem around this new tech to move this industry forward and make it a success</p>
-
-		<p class="p2">We will continue to have our regularly monthly WWTO events, which now stands for We Are Wearables Toronto. There is no change to this meetup outside of the name. We are still dedicated to bringing together experts and startups in the wearable space for some fantastic discussions and demos.</p>
-
-		<p class="p2">But you can expect to see other events pop-up in this city and possibly others. We are also taking WWTO on the road to bring workshops, lunch-and-learns and presentations to companies, brands, and agencies who want to have this discussion with their teams or clients.</p>
-
-		<p class="p2">And we will be launching our official website in the next couple of weeks which will acts a hub for the community and an online resource for wearable tech.</p>
-
-		<p class="p2">Thank you for making this happen. We Are Wearables, and I am excited to see where we all take this.
+		<p class="p2">We are doing this because we know one thing is for certain, in order for wearable technology to succeed it needs all of us. And together, We Are Wearables.
 		</p>
 
 	</div>
