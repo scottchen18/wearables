@@ -89,7 +89,7 @@ background-position: 50% 0%;" class="landing">
 				<div class="s_center img_s">
 					<img class="img_h"  src="<?php echo base_url();?>application/assets/img/brain.png">
 				</div>
-				<div class="sub_h2">Articles and Video about the Wearable Tech Industry</div>
+				<div class="sub_h2">Info About the Wearable Tech Space</div>
 				
 			</div>
 			
