@@ -50,11 +50,11 @@
 
 		 <p class="p2">As security is paramount when it comes to digital identity, Bionym has created the Nymi with a three-factor security system. In order to authenticate, users must be wearing their Nymi, your unique heartbeat along with an Authorized Authentication Device like your smartphone.</p> 
 
-		<p class="p2">But the Nymi goes far beyond a better password. Its motion sensing technology using an accelerometer empowers the user to use simple gestures to perform task-specific commands. These become important when you want to use the Nymi to access a specific device in an home that has a growing number of smart things.</p> 
+		<p class="p2">But the Nymi goes far beyond a better password. Its motion sensing technology using an accelerometer empowers the user to use simple gestures to perform task-specific commands. These become important when you want to use the Nymi to access a specific device in a home that has a growing number of smart things.</p> 
 
 		<p class="p2">The potential of Nymi is vast but the strength of the device will reside in the applications that use it. And BIonym has been busy working on the necessary partnerships and growing the required developer ecosystem to create a world that is Nymi-friendly.</p>
 
-		<p class="p2">Back in February of this year, Binonym announced that the Nymi will have its own secure BItcoin wallet as one of its killer apps. The Bitcoin wallet will let you store your private key necessary to send and withdraw funds from your account on your Nymi. This adds a level of security both through the use of the heartbeat authentication and the fact that your private key won’t be stored on your computers hard drive where it may be more easy to steal.</p>
+		<p class="p2">Back in February of this year, Bionym announced that the Nymi will have its own secure BItcoin wallet as one of its killer apps. The Bitcoin wallet will let you store your private key necessary to send and withdraw funds from your account on your Nymi. This adds a level of security both through the use of the heartbeat authentication and the fact that your private key won’t be stored on your computers hard drive where it may be more easy to steal.</p>
 
 		<p class="p2">Bionym also announced its partnership with password manager, Passwordbox, which will quickly get users access to a wide variety of online portals and accounts just by wearing the Nymi.</p> 
 
